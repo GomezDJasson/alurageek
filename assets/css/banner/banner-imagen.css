@@ -1,0 +1,17 @@
+.banner_imagen{
+    background: url('../../img/banner.jpeg') no-repeat center / cover;
+    width: 100%;
+    
+}
+
+@media screen and (min-width:0) {
+    .banner_imagen{
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .banner_imagen{
+        height: 352px;
+    }
+}
