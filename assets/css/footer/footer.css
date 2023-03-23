@@ -1,0 +1,125 @@
+footer{
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    background: #EAF2FD;
+    padding: 1rem 1rem 0 1rem;
+}
+
+/* Navbar */
+.footer_navegacion{
+    text-align: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer_enlace a{
+    text-decoration: none;
+    color: #464646;
+    line-height: 2;
+}
+
+/* Formulario */
+.form form{
+    display: flex;
+    flex-direction: column;
+    background: #EAF2FD;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.form-titulo{
+    font-weight: 700;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    background: #EAF2FD;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+    border: none;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform: scale(1.2);
+
+}
+
+.copyright{
+    text-align: center;
+    padding: 25px;
+}
+
+@media  screen and (min-width:768px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    .footer{
+        transform: translate(-80px, 40px);
+        padding: 1rem;
+    }
+    .footer_logo{
+        display: block;
+        width: 10%;
+        padding: 0 0 0 1rem;
+    }
+
+    .footer_navegacion{
+        text-align: left;
+    }
+
+    .input-padron{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:992px){
+    footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 4rem;
+    }
+    .footer{
+        padding: 0;
+        transform: none;
+    }
+    .footer_logo{
+        height: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    .footer_navegacion{
+        margin: 0;
+    }
+    .form form{
+        padding: 0;
+    }
+}

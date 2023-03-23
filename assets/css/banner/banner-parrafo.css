@@ -1,0 +1,19 @@
+.banner_parrafo{
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:0){
+    .banner_parrafo{
+        font-size: 0.9rem;
+    }
+}
+
+@media  screen and (min-width:768px){
+    .banner_parrafo{
+        font-size: 1.46875rem;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+}

@@ -15,12 +15,14 @@
     display: flex;
 }
 .btn{
+    font-weight: 600;
     color: #2A7AE4;
     font-size: 1rem;
     border: solid 1px #2A7AE4;
     background: #ffffff;
     padding: 10px 50px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .mobile-search-icon{
     margin-left: 10px;
@@ -57,7 +59,7 @@
         display: flex;
     }
       
-    input[type="text"] {
+    .search input{
         width: 200px;
         height: 30px;
         border: none;
@@ -76,7 +78,7 @@
         display: flex;
         justify-content: space-between;
     }
-    input[type="text"] {
+    .search input{
         width: 400px;
     }
 }

@@ -1,0 +1,15 @@
+.banner_titulo{
+    font-weight: 700;
+}
+
+@media screen and (min-width:0){
+    .banner_titulo{
+        font-size: 1.46875rem;
+    }
+}
+
+@media  screen and (min-width:768px){
+    .banner_titulo{
+        font-size: 3.375rem;
+    }
+}

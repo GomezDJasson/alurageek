@@ -1,0 +1,20 @@
+.banner_informacion{
+    color:#ffffff;
+    position: absolute;
+    text-align: left;
+    transform: translate( 0, -110%);
+    margin-left: 16px;
+}
+
+@media  screen and (min-width:768px){
+    .banner_informacion{
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .banner_informacion{
+        margin-left: 60px;
+        transform: translate(0, -120%);
+    }
+}
