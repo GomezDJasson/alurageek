@@ -1,0 +1,73 @@
+.add_productos {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 350px;
+}
+
+.add-titulo{
+    display: flex;
+    justify-content: left;
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.input-textarea{
+    height: auto;
+}
+
+.primary-button {
+    background-color: #2A7AE4;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 50px;
+    margin: 14px 0 5px 0;
+}
+
+@media screen and (min-width:768px) {
+    .add_productos{
+        height: 40vh; 
+    }
+    .form-container{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .add_productos{
+        height: 110vh; 
+    }
+    .form-container{
+        width: 50%;
+    }
+}

@@ -10,6 +10,7 @@
 .logo{
     width: 80%;
     margin-right: 0;
+    cursor: pointer;
 }
 .mobile-search{
     display: flex;
@@ -23,6 +24,9 @@
     padding: 10px 50px;
     margin-right: 20px;
     cursor: pointer;
+}
+.btn-administrador{
+    padding: 15px;
 }
 .mobile-search-icon{
     margin-left: 10px;

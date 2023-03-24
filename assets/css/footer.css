@@ -12,8 +12,8 @@ footer{
 .footer_logo{
     display: flex;
     justify-content: center;
-    background: #EAF2FD;
     padding: 1rem 1rem 0 1rem;
+    cursor: pointer;
 }
 
 /* Navbar */
@@ -34,7 +34,6 @@ footer{
 .form form{
     display: flex;
     flex-direction: column;
-    background: #EAF2FD;
     padding: 0 1rem 1rem 1rem;
 }
 
@@ -42,7 +41,6 @@ footer{
     font-weight: 700;
     margin-left: 15px;
     padding-bottom: 5px;
-    background: #EAF2FD;
 }
 
 .input-padron{

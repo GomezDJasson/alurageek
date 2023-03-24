@@ -13,29 +13,49 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/stylesheet.css">
     <link rel="stylesheet" href="../assets/css/cabecera.css">
-
-    <link rel="stylesheet" href="../assets/css/footer/footer.css">
+    <link rel="stylesheet" href="../assets/css/add-productos.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
 <body>
     <header class="cabecera">
         <div class="cabecera-mobile cabecera-web">
-            <img src="../assets/img/Logo.svg" alt="Logo Alurageek" class="logo">
+            <a href="index.html">
+                <img src="../assets/img/Logo.svg" alt="Logo Alurageek" class="logo">
+            </a>
             <form class="search">
                 <input type="text" placeholder="¿Qué deseas buscar?" class="search-box">
                 <button type="submit" class="search-icon"><img src="../assets/img/Icone.svg" alt="logo search"></button>
             </form>    
         </div>
         <div class="mobile-search">
-            <button class="btn">Menu administrador</button>
+            <button class="btn btn-administrador">Menu administrador</button>
             <img src="../assets/img/Icone.svg" alt="logo search" class="mobile-search-icon">
         </div>
     </header>
     <main>
-        
+        <section class="add_productos">
+            <div class="form-container">
+            
+            <h1 class="add-titulo">Agregar nuevo producto</h1>
+            
+                <form action="/" class="form">
+                    <input type="text" placeholder="URL de imagen" class="input">
+                    <input type="text" placeholder="Categoria" class="input">
+                    <input type="text" placeholder="Nombre del producto" class="input">
+                    <input type="text" placeholder="Precio del producto" class="input">
+                    <textarea cols="50" rows="5" placeholder="Descripción del producto" class="input input-textarea"></textarea>
+                </form>
+                <a href="#">
+                    <button class="primary-button">Agregar productor</button>
+                </a>
+            </div>
+        </section>
     </main>
     <footer>
         <section class="footer_logo">
-            <img src="../assets/img/Logo.svg" alt="Logo Alurageek">
+            <a href="index.html">
+                <img src="../assets/img/Logo.svg" alt="Logo Alurageek">
+            </a>
         </section>
         <section class="footer">
              <nav>
