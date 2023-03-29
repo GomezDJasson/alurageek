@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alurageek</title>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,15 +13,9 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/stylesheet.css">
     <link rel="stylesheet" href="../assets/css/cabecera.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner-imagen.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner-informacion.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner-titulo.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner-parrafo.css">
-    <link rel="stylesheet" href="../assets/css/banner/banner-btn.css">
     <link rel="stylesheet" href="../assets/css/main-container.css">
+    <link rel="stylesheet" href="../assets/css/vista-productos.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-
 </head>
 <body>
     <header class="cabecera">
@@ -36,55 +29,27 @@
             </form>    
         </div>
         <div class="mobile-search">
-            <a href="./login.html"><button class="btn">Login</button></a>
             <img src="../assets/img/Icone.svg" alt="logo search" class="mobile-search-icon">
         </div>
     </header>
     <main>
-        <section class="banner">
-            <div class="banner_imagen"></div>
-            <div class="banner_informacion">
-                <h1 class="banner_titulo">Febrero Promocional</h1>
-                <p class="banner_parrafo">Productos seleccionados con 33% de descueto</p>
-                <button class="banner_btn">Ver Consolas</button>
+        <section class="container-productos" data-vista-producto>
 
-            </div>
-        </section>
-
-        <section class="main-container-general">
-            <section class="main-container">
-                <div class="title-container">
-                    <h2>Star Wars</h2>
-                    <p class="subtitle-container">Ver todo <i class='bx bx-right-arrow-alt' style='color:#2a7ae4'></i></p>
-                </div>
-                <div class="cards-container" data-product data-product-starwars>
-
-                    <!-- Aqui se rellena con JS -->
-        
-            </section>
-
-            <section class="main-container">
-                <div class="title-container">
-                    <h2>Consolas</h2>
-                    <p class="subtitle-container">Ver todo <i class='bx bx-right-arrow-alt' style='color:#2a7ae4'></i></p>
-                </div>
-                <div class="cards-container" data-product-consolas>
-
-                    <!-- Aqui se rellena con JS -->  
-        
-            </section>
-
-            <section class="main-container">
-                <div class="title-container">
-                    <h2>Diversos</h2>
-                    <p class="subtitle-container">Ver todo <i class='bx bx-right-arrow-alt' style='color:#2a7ae4'></i></p>
-                </div>
-                <div class="cards-container" data-product-diversos>
-        
-                    <!-- Aqui se rellena con JS -->
-        
-            </section>
-        </section>
+            <!--Aqui se insertan los productos desde JS-->
+  
+          </section>
+  
+  
+          <section class="main-container">
+              <div class="title-container">
+                  <h2>Te podria interesar</h2>
+              </div>
+  
+          <section class="cards-container" data-mas-productos>
+                  <!--Aqui se insertan los productos desde JS-->
+              </>
+  
+          </section>
     </main>
     <footer>
         <section class="footer_logo">
@@ -119,6 +84,6 @@
         <p>Desarrollado por Jasson D. Gómez</p>
         <p>2023</p>
     </div>
-    <script type="module" src="../controllers/productos-controller.js"></script>
+    <script type="module" src="../controllers/detalle-producto.js"></script>
 </body>
 </html>

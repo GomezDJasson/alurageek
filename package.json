@@ -1,0 +1,20 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Proyecto e-commerce",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "(node index.js)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/GomezDJasson/alurageek)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
