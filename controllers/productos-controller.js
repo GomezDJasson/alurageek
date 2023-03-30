@@ -17,7 +17,7 @@ const nuevoProducto = (nombre, precio, descripcion, categoria, imagen, id, link)
     `
 
     card.innerHTML = contenido
-    // card.dataset.id = id
+    card.dataset.id = id
 
     return card
 }

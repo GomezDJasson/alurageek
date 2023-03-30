@@ -24,6 +24,12 @@
     padding: 10px 50px;
     margin-right: 20px;
     cursor: pointer;
+    transition: 1s all;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: #ffffff;
+    background-color: #2A7AE4;
 }
 .btn-administrador{
     padding: 15px;

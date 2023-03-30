@@ -65,7 +65,9 @@ footer{
 
 .enviar:hover{
     transform: scale(1.2);
-
+    color: #2A7AE4;
+    background-color: #ffffff;
+    border: solid 1px #2A7AE4;
 }
 
 .copyright{

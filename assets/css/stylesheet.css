@@ -1,3 +1,23 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
+
+.error {
+    background-color: #f00505;
+    padding: 1rem .5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.succes {
+    background-color: #2A7AE4;
+    padding: 1rem .5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}

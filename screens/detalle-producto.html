@@ -69,14 +69,15 @@
                 </ul>
             </nav>
         </section>
-        <section class="form">
+        <section class="form" data-form-footer>
             <h2 class="form-titulo">Hable con nosotros</h2>
+            <div data-form-error></div>
             <form action="">
-                <input type="text" id="nombreApellido" class="input-padron" placeholder="Nombre" required>
+                <input type="text" id="nombreApellido" class="input-padron" placeholder="Nombre" required data-form-nombre>
         
-                <textarea id="mensaje" cols="50" rows="5" class="input-padron" placeholder="Escribe tu mensaje" required></textarea>
+                <textarea id="mensaje" cols="50" rows="5" class="input-padron" placeholder="Escribe tu mensaje" required data-form-textarea></textarea>
         
-                <input type="submit" value="Enviar mensaje" class="enviar">
+                <input type="submit" value="Enviar mensaje" class="enviar" data-form-enviar>
             </form>
         </section>
     </footer>
@@ -85,5 +86,6 @@
         <p>2023</p>
     </div>
     <script type="module" src="../controllers/detalle-producto.js"></script>
+    <script src="../app.js"></script>
 </body>
 </html>
