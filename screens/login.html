@@ -36,17 +36,23 @@
             <div class="form-container">
             
             <h1 class="login-titulo">Iniciar Sesión</h1>
+
+            <div class="cont-errores" data-login-error>
+            </div>
             
                 <form action="/" class="form">
                     <label for="email" class="label">Email address</label>
-                    <input type="text" id="email" placeholder="Esciba su correo electronico" class="input">
+                    <input type="text" id="email" placeholder="Esciba su correo electronico" class="input" data-login-email>
             
                     <label for="Password" class="label">Password</label>
-                    <input type="password" id="new-password" placeholder="Escriba su contraseña" class="input">
+                    <input type="password" id="new-password" placeholder="Escriba su contraseña" class="input" data-login-password>
                 </form>
-                <a href="./productos.html">
-                    <button class="primary-button login-button">Entrar</button>
-                </a>
+                    <input type="button" value="Entrar" class="primary-button login-button" id="iniciar-sesion" data-login-inicio-sesion>
+            </div>
+            <div id="spinner" data-login-spinner>
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
             </div>
         </section>
     </main>
@@ -84,6 +90,7 @@
         <p>Desarrollado por Jasson D. Gómez</p>
         <p>2023</p>
     </div>
+    <script src="../controllers/login-controller.js"></script>
     <script src="../app.js"></script>
 </body>
 </html>
