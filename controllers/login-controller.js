@@ -1,18 +1,19 @@
 import { usuariosServices } from "../service/user-service.js";
 
 const inputEmail = document.querySelector("[data-login-email]");
-const inputPassword = document.querySelector("data-login-password");
+const inputPassword = document.querySelector("[data-login-password]");
 
 const btnLogin = document.querySelector("[data-login-inicio-sesion]");
 
-document.addEventListener("DOMContentLoaded", () => {
-    btnLogin.classList.add("btn-desactivado");
+document.addEventListener('DOMContentLoaded', () => {
+
+    btnLogin.classList.add('btn-desactivado');
     btnLogin.disabled = true;
 
-    inputEmail.addEventListener("blur", validarForm);
-    inputPassword.addEventListener("blur", validarForm);
+    inputEmail.addEventListener('blur', validarForm);
+    inputPassword.addEventListener('blur', validarForm);
 
-    btnLogin.addEventListener("click", usuarioExiste);
+    btnLogin.addEventListener('click', usuarioExiste);
 })
 
 
@@ -24,9 +25,9 @@ async function usuarioExiste() {
 
     await usuariosServices.listaUsuarios()
         .then(respuesta => {
-            respuesta.forEach(admins => {
+            respuesta.forEach(usuario => {
 
-                if (admins.correo === inputEmail.value && admins.password === inputPassword.value) {
+                if (usuario.email === inputEmail.value && usuario.password === inputPassword.value) {
                     return existeUsuario = true;
                 } else {
                     return;
@@ -40,41 +41,41 @@ async function usuarioExiste() {
     } else {
 
         mostrarMensaje('Iniciando sesión. Redireccionando a página de inicio', 'succes');
-        spinner.classList.add("spinner");
+        spinner.classList.add('spinner');
         usuarioAutenticado(true)
         setTimeout(() => {
-            spinner.classList.remove("spinner");
+            spinner.classList.remove('spinner');
             window.location.href = "/screens/productos.html";
         }, 5000);
-    };
-};
+    }
+}
 
 
 const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 function validarForm(e) {
 
-    if (e.target.type === "[data-login-email]") {
+    if (e.target.type === 'email') {
 
         if (!er.test(e.target.value)) {
             mostrarMensaje('Formato de email no válido', 'error');
-        };
-    };
+        }
+    }
 
-    if (e.target.value === " ") {
+    if (e.target.value === '') {
 
         mostrarMensaje(`El campo ${e.target.id} no puede estar vacío`, 'error');
-        e.target.classList.add("campo-error");
+        e.target.classList.add('campo-error');
 
     } else {
-        e.target.classList.remove("campo-error");
-    };
+        e.target.classList.remove('campo-error');
+    }
 
     if (er.test(email.value) && inputPassword.value != '') {
-        btnLogin.classList.remove("btn-desactivado");
+        btnLogin.classList.remove('btn-desactivado');
         btnLogin.disabled = false;
-    };
-};
+    }
+}
 
 
 

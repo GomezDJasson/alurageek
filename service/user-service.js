@@ -12,8 +12,8 @@ async function crearCliente(email, password) {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            email,
-            password
+            email: email,
+            password: password
         })
     });
 };

@@ -42,10 +42,10 @@
             
                 <form action="/" class="form">
                     <label for="email" class="label">Email address</label>
-                    <input type="text" id="email" placeholder="Esciba su correo electronico" class="input" data-login-email>
+                    <input type="text" id="email" placeholder="Esciba su correo electronico" class="input campo-error" data-login-email>
             
                     <label for="Password" class="label">Password</label>
-                    <input type="password" id="new-password" placeholder="Escriba su contraseña" class="input" data-login-password>
+                    <input type="password" id="new-password" placeholder="Escriba su contraseña" class="input campo-error" data-login-password>
                 </form>
                     <input type="button" value="Entrar" class="primary-button login-button" id="iniciar-sesion" data-login-inicio-sesion>
             </div>
@@ -90,7 +90,7 @@
         <p>Desarrollado por Jasson D. Gómez</p>
         <p>2023</p>
     </div>
-    <script src="../controllers/login-controller.js"></script>
+    <script type="module" src="../controllers/login-controller.js"></script>
     <script src="../app.js"></script>
 </body>
 </html>
