@@ -4,7 +4,7 @@ import {productService} from "../service/product-service.js";
 const containerProducto = document.querySelector("[data-vista-producto]");
 
 const url = new URL(window.location);
-const idURL = Number(url.searchParams.get("id"));
+const idURL = url.searchParams.get("id");
 
 
 function obtenerInfoProducto(nombre, precio, descripcion, imagen) {
@@ -44,7 +44,7 @@ productService.listaProductos()
             const descripcion = await respuesta[i].descripcion;
             const precio = await respuesta[i].precio;
 
-            if (Number(id) === idURL) {
+            if ((id) === idURL) {
                 
                 const mostrarProducto = obtenerInfoProducto(nombre, precio, descripcion, imagen, id);
                 containerProducto.appendChild(mostrarProducto);

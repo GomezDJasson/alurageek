@@ -11,7 +11,14 @@ async function crearProducto (nombre, precio, descripcion, categoria, imagen) {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({nombre, precio, descripcion, categoria, imagen})
+        body: JSON.stringify({
+            nombre, 
+            precio, 
+            descripcion, 
+            categoria, 
+            imagen,
+            link: `./detalle-producto.html`
+        })
     }).then(respuesta =>{
         if(respuesta.ok){
             return respuesta.body

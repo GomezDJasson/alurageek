@@ -163,12 +163,13 @@
       "link": "./detalle-producto.html"
     },
     {
-      "nombre": "https://drive.google.com/uc?id=19kFFuJRicU-NPhlvJ6dP-SrBNgEKfZHe",
-      "precio": "Pokacho",
-      "descripcion": "$120",
-      "categoria": "Consolas",
-      "imagen": "Pokacho Chibi",
-      "id": "mFaKSWD"
+      "nombre": "Emily",
+      "precio": "$20",
+      "descripcion": "Pop! Emily needs help to solve her own murder and she's looking for Victor in your Corpse Bride collection to help her. Vinyl figure is approximately 4-inches tall.",
+      "categoria": "Diversos",
+      "imagen": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw6c5473f1/images/funko/49046-1.png?sw=800&sh=800",
+      "link": "./detalle-producto.html",
+      "id": "cidCKO_"
     }
   ],
   "admins": [
