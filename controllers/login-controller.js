@@ -40,7 +40,7 @@ async function usuarioExiste() {
         mostrarMensaje('Email o contraseña incorrecto, intenta nuevamente', 'error');
     } else {
 
-        mostrarMensaje('Iniciando sesión. Redireccionando a página de inicio', 'succes');
+        mostrarMensaje('Iniciando sesión.', 'succes');
         spinner.classList.add('spinner');
         usuarioAutenticado(true)
         setTimeout(() => {

@@ -36,18 +36,21 @@
         <section class="add_productos">
             <div class="form-container">
             
-            <h1 class="add-titulo">Agregar nuevo producto</h1>
+                <h1 class="add-titulo">Agregar nuevo producto</h1>
+
+                <div class="cont-errores">
+                </div>
             
-                <form action="/" class="form">
-                    <input type="text" placeholder="URL de imagen" class="input">
-                    <input type="text" placeholder="Categoria" class="input">
-                    <input type="text" placeholder="Nombre del producto" class="input">
-                    <input type="text" placeholder="Precio del producto" class="input">
-                    <textarea cols="50" rows="5" placeholder="Descripción del producto" class="input input-textarea"></textarea>
+                <form action="/" class="form" data-form-agregar>
+                    <input type="text" placeholder="URL de imagen" class="input" data-url-imagen>
+                    <input type="text" placeholder="Nombre del producto" class="input" data-agregar-nombre>
+                    <input type="text" placeholder="Precio del producto" class="input" data-agregar-precio>
+                    <input type="text" placeholder="Categoria" class="input" data-agregar-categoria>
+                    <textarea cols="50" rows="5" placeholder="Descripción del producto" class="input input-textarea" data-agregar-descripcion></textarea>
+                    
+                    <input type="submit" value="Agregar producto" class="primary-button" data-agregar-producto>
                 </form>
-                <a href="#">
-                    <button class="primary-button">Agregar producto</button>
-                </a>
+                
             </div>
         </section>
     </main>
@@ -85,6 +88,7 @@
         <p>Desarrollado por Jasson D. Gómez</p>
         <p>2023</p>
     </div>
+    <script type="module" src="../controllers/creacion-productos-controller.js"></script>
     <script src="../app.js"></script>
 </body>
 </html>

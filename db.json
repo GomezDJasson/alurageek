@@ -1,188 +1,196 @@
 {
-    "productos": [
-      {
-        "nombre": "Figura Kylo Ren",
-        "precio": "$120",
-        "descripcion": "Figura de acción Kylo Ren",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1kNxLTEBDC5wy9DNRA5XNG3gWU6jNUf8a",
-        "id": "1",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Figura Stormtrooper",
-        "precio": "$120",
-        "descripcion": "Figura de acción Stormtrooper",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1dRlQPuDlEJ4e7UaihWDtNGRJo7WJwvYC",
-        "id": "2",
-        "link":"./detalle-producto.html"
-      },
-      {
-        "nombre": "Mug Stormtrooper",
-        "precio": "$120",
-        "descripcion": "Mug casco Strontrooper",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1gcepPNyCRiN4p6NH_NG8ImHakYMWbb2u",
-        "id": "3",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Casco Darth Vader",
-        "precio": "$120",
-        "descripcion": "Casco coleccionable Darth Vader",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1LrIXehkgDHuHcnrw1czEtg-ZbAl1sW6i",
-        "id": "4",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Figura Yoda",
-        "precio": "$120",
-        "descripcion": "Figura de acción Yoda",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1Cf-twTtsYob539oEGvwb5AIxM-yK-gU2",
-        "id": "5",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Figura Grogu",
-        "precio": "$120",
-        "descripcion": "Figura mecatronica Grogu",
-        "categoria": "Star War",
-        "imagen": "https://drive.google.com/uc?id=1KYlINHloOTW9C8b3iDM21VghE3posauY",
-        "id": "6",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Control Xbox Blanco",
-        "precio": "$120",
-        "descripcion": "Control Xbox Blanco",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=1ep17tYFkCNfJHqlFXlSeLvdgA_kI_oHV",
-        "id": "7",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Play Station 5 con control",
-        "precio": "$120",
-        "descripcion": "Play Station 5 con control",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=1dmhSAaUa6HWriDeD2jaYiorTcarBTvZc",
-        "id": "8",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Nintendo",
-        "precio": "$120",
-        "descripcion": "Nintendo",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=13QTQ9XQ3Sx6zWavPw3GZV_tcirEzIsNJ",
-        "id": "9",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Controles Nintendo Switch",
-        "precio": "$120",
-        "descripcion": "Controles Nintendo Switch",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=1mATB9SlzWqJNoUehbT-Qsm4k-Qy1XjaY",
-        "id": "10",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Xbox Series S",
-        "precio": "$120",
-        "descripcion": "Xbox Series S",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=1ikP2sBndPeluyMUNSDnueCW9Bb-s8meq",
-        "id": "11",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Game Boy Colora",
-        "precio": "$120",
-        "descripcion": "Game Boy Color",
-        "categoria": "Consolas",
-        "imagen": "https://drive.google.com/uc?id=1FRDLd704E7DR6FYjF0GAN1Wa-wneAiMm",
-        "id": "12",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Camiseta Atari",
-        "precio": "$120",
-        "descripcion": "Camiseta Atari",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=1dtJxl4P9dFsS7fBssF4GOmd_cZV7jRQA",
-        "id": "13",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Camiseta Snes",
-        "precio": "$120",
-        "descripcion": "Camiseta Snes",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=17HB2EHg5iNYJUcWt4cqbAcN5PQzrzBdV",
-        "id": "14",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Figura Sonic",
-        "precio": "$120",
-        "descripcion": "Figura Sonic",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=1O0JRIOWh5se2WXXK_CZ_sBsucwJt0N3p",
-        "id": "15",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Radio Reloj",
-        "precio": "$120",
-        "descripcion": "Radio Reloj",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=1af8zxAy1hPILgA4KL62XuphyCYtgw4oY",
-        "id": "16",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Gafas de Realidad Virtual",
-        "precio": "800",
-        "descripcion": "Gafas de Realidad Virtual",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=1vvuvT2IPvds_RKUIR3fwwMLEhzGli2kE",
-        "id": "17",
-        "link": "./detalle-producto.html"
-      },
-      {
-        "nombre": "Pikachu",
-        "precio": "950",
-        "descripcion": "Pikachu",
-        "categoria": "Diversos",
-        "imagen": "https://drive.google.com/uc?id=19kFFuJRicU-NPhlvJ6dP-SrBNgEKfZHe",
-        "id": "18",
-        "link": "./detalle-producto.html"
-      }
-    ],
-    "admins": [
-      {
-        "email": "fgm@alurageek.com",
-        "password": "Geek123",
-        "id": "1"
-      },
-      {
-        "email": "david@alurageek.com",
-        "password": "Geek1234",
-        "id": "2"
-      },
-      {
-        "email": "nana@alurageek.com",
-        "password": "Geek456",
-        "id": "3"
-      },
-      {
-        "email": "pruebas@alurageek.com",
-        "password": "Geek4567",
-        "id": "4"
-      }
-    ]
-  }
+  "productos": [
+    {
+      "nombre": "Figura Kylo Ren",
+      "precio": "$120",
+      "descripcion": "Figura de acción Kylo Ren",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1kNxLTEBDC5wy9DNRA5XNG3gWU6jNUf8a",
+      "id": "1",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Figura Stormtrooper",
+      "precio": "$120",
+      "descripcion": "Figura de acción Stormtrooper",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1dRlQPuDlEJ4e7UaihWDtNGRJo7WJwvYC",
+      "id": "2",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Mug Stormtrooper",
+      "precio": "$120",
+      "descripcion": "Mug casco Strontrooper",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1gcepPNyCRiN4p6NH_NG8ImHakYMWbb2u",
+      "id": "3",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Casco Darth Vader",
+      "precio": "$120",
+      "descripcion": "Casco coleccionable Darth Vader",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1LrIXehkgDHuHcnrw1czEtg-ZbAl1sW6i",
+      "id": "4",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Figura Yoda",
+      "precio": "$120",
+      "descripcion": "Figura de acción Yoda",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1Cf-twTtsYob539oEGvwb5AIxM-yK-gU2",
+      "id": "5",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Figura Grogu",
+      "precio": "$120",
+      "descripcion": "Figura mecatronica Grogu",
+      "categoria": "Star War",
+      "imagen": "https://drive.google.com/uc?id=1KYlINHloOTW9C8b3iDM21VghE3posauY",
+      "id": "6",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Control Xbox Blanco",
+      "precio": "$120",
+      "descripcion": "Control Xbox Blanco",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=1ep17tYFkCNfJHqlFXlSeLvdgA_kI_oHV",
+      "id": "7",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Play Station 5 con control",
+      "precio": "$120",
+      "descripcion": "Play Station 5 con control",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=1dmhSAaUa6HWriDeD2jaYiorTcarBTvZc",
+      "id": "8",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Nintendo",
+      "precio": "$120",
+      "descripcion": "Nintendo",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=13QTQ9XQ3Sx6zWavPw3GZV_tcirEzIsNJ",
+      "id": "9",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Controles Nintendo Switch",
+      "precio": "$120",
+      "descripcion": "Controles Nintendo Switch",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=1mATB9SlzWqJNoUehbT-Qsm4k-Qy1XjaY",
+      "id": "10",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Xbox Series S",
+      "precio": "$120",
+      "descripcion": "Xbox Series S",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=1ikP2sBndPeluyMUNSDnueCW9Bb-s8meq",
+      "id": "11",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Game Boy Colora",
+      "precio": "$120",
+      "descripcion": "Game Boy Color",
+      "categoria": "Consolas",
+      "imagen": "https://drive.google.com/uc?id=1FRDLd704E7DR6FYjF0GAN1Wa-wneAiMm",
+      "id": "12",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Camiseta Atari",
+      "precio": "$120",
+      "descripcion": "Camiseta Atari",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=1dtJxl4P9dFsS7fBssF4GOmd_cZV7jRQA",
+      "id": "13",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Camiseta Snes",
+      "precio": "$120",
+      "descripcion": "Camiseta Snes",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=17HB2EHg5iNYJUcWt4cqbAcN5PQzrzBdV",
+      "id": "14",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Figura Sonic",
+      "precio": "$120",
+      "descripcion": "Figura Sonic",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=1O0JRIOWh5se2WXXK_CZ_sBsucwJt0N3p",
+      "id": "15",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Radio Reloj",
+      "precio": "$120",
+      "descripcion": "Radio Reloj",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=1af8zxAy1hPILgA4KL62XuphyCYtgw4oY",
+      "id": "16",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Gafas de Realidad Virtual",
+      "precio": "800",
+      "descripcion": "Gafas de Realidad Virtual",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=1vvuvT2IPvds_RKUIR3fwwMLEhzGli2kE",
+      "id": "17",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "Pikachu",
+      "precio": "950",
+      "descripcion": "Pikachu",
+      "categoria": "Diversos",
+      "imagen": "https://drive.google.com/uc?id=19kFFuJRicU-NPhlvJ6dP-SrBNgEKfZHe",
+      "id": "18",
+      "link": "./detalle-producto.html"
+    },
+    {
+      "nombre": "https://drive.google.com/uc?id=19kFFuJRicU-NPhlvJ6dP-SrBNgEKfZHe",
+      "precio": "Pokacho",
+      "descripcion": "$120",
+      "categoria": "Consolas",
+      "imagen": "Pokacho Chibi",
+      "id": "mFaKSWD"
+    }
+  ],
+  "admins": [
+    {
+      "email": "fgm@alurageek.com",
+      "password": "Geek123",
+      "id": "1"
+    },
+    {
+      "email": "david@alurageek.com",
+      "password": "Geek1234",
+      "id": "2"
+    },
+    {
+      "email": "nana@alurageek.com",
+      "password": "Geek456",
+      "id": "3"
+    },
+    {
+      "email": "pruebas@alurageek.com",
+      "password": "Geek4567",
+      "id": "4"
+    }
+  ]
+}
